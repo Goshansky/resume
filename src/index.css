@@ -36,7 +36,6 @@ body {
   min-width: 320px;
   min-height: 100vh;
   background: #ffffff;
-  justify-content: center; /* Центрирование по горизонтали */
   /*align-items: center; !* Центрирование по вертикали *!*/
   font-size: 14px;
   line-height: 26px;

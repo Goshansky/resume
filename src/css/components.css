@@ -195,3 +195,23 @@
 .resume .resume_right .resume_hobby ul li:last-child:before {
     display: none;
 }
+
+@media (max-width: 1000px) {
+    .bold {
+        font-size: 16px; /* Уменьшите размер заголовков */
+    }
+
+    .semi-bold, .resume .resume_right ul li .date {
+        font-size: 14px; /* Уменьшите размер полужирного текста */
+    }
+
+    .resume .resume_left .regular1 {
+        font-size: 16px; /* Уменьшите размер обычного текста */
+    }
+    .resume .resume_left .regular {
+        font-size: 14px; /* Уменьшите размер обычного текста */
+    }
+    p {
+        font-size: 12px
+    }
+}
