@@ -1,0 +1,15 @@
+.resume {
+    width: 1000px;
+    height: auto;
+    display: flex;
+    margin: 20px auto;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.resume_right {
+    width: 660px;
+    background: #fff;
+    padding: 25px;
+    border: 2px solid #0bb5f4;
+}
