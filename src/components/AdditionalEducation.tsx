@@ -1,4 +1,4 @@
-import {profileData} from "../data.ts";
+import { profileData } from "../data.ts";
 
 const AdditionalEducation = () => {
     return (
@@ -11,7 +11,12 @@ const AdditionalEducation = () => {
                     <li key={index}>
                         <div className="date">{additionalEducation.year} <b>{additionalEducation.title}</b></div>
                         <div className="info">
-                            <p>{additionalEducation.link}</p>
+                            <p>
+                                <a href={additionalEducation.link} target="_blank" rel="noopener noreferrer"
+                                   className="custom-link">
+                                    {additionalEducation.link}
+                                </a>
+                            </p>
                         </div>
                     </li>
                 ))}

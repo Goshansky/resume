@@ -14,7 +14,12 @@ const PetProjects = () => {
                             <p className="semi-bold">
                                 <b>{project.title}</b>
                             </p>
-                            <p>{project.link}</p>
+                            <p>
+                                <a href={project.link} target="_blank" rel="noopener noreferrer"
+                                   className="custom-link">
+                                    {project.link}
+                                </a>
+                            </p>
                         </div>
                     </li>
                 )}

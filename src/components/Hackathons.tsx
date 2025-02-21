@@ -14,7 +14,12 @@ const Hackathons = () => {
                             <p className="semi-bold">
                                 <b>{hackathon.title}</b>
                             </p>
-                            <p>{hackathon.link}</p>
+                            <p>
+                                <a href={hackathon.link} target="_blank" rel="noopener noreferrer"
+                                   className="custom-link">
+                                    {hackathon.link}
+                                </a>
+                            </p>
                         </div>
                     </li>
                 ))}

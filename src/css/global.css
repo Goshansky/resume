@@ -8,3 +8,13 @@
     list-style: none;
     font-family: "Montserrat", sans-serif;
 }
+
+.custom-link {
+    color: inherit; /* Наследует цвет текста от родительского элемента */
+    text-decoration: none; /* Убирает подчеркивание */
+}
+
+.custom-link:hover {
+    text-decoration: underline; /* Подчеркивание при наведении, если хотите */
+    color: inherit; /* Сохраняет цвет текста при наведении */
+}

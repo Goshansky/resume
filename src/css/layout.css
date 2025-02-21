@@ -3,8 +3,6 @@
     height: auto;
     display: flex;
     margin: 20px auto;
-    justify-content: center;
-    align-items: flex-start;
 }
 
 .resume_right {
